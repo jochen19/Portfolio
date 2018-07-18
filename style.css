@@ -1,0 +1,48 @@
+img{
+    border:5px solid black;
+}
+a{
+    color:inherit;
+    text-decoration:none;
+}
+.row{   
+    background-color:black;
+    color:white;
+    font-size:28px; 
+    display:flex;
+    justify-content:center;
+    justify-content:space-evenly; 
+}
+.mid{
+    background-color:white;
+    color:black;
+    align-items:center;
+    font-size:50px;
+    top:50%;
+    margin-top:8px;
+    margin-bottom:8px;
+}
+#headshot{
+    width:20%;
+    margin-right:150px;
+}
+#name{
+    margin-left:150px;
+}
+.aboutme{
+    border-top:8px solid black;   
+}
+.header{
+    font-size:30px;
+}
+.info{
+    background-color:white;
+    color:black;
+    top:50%;
+    margin-top:8px;
+    margin-bottom:8px;
+    font-size:25px;
+}
+#ldm{
+    width:30%;
+}

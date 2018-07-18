@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>About Me</title>
+        <link rel="stylesheet" type="text/css" href="style.css"></link>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+        </script>
+        <script>
+            $(".funfact").hide();
+            $("#fact").click(function(){
+                $(".funfact").show;
+            });    
+        </script>
+    </head>
+    <body>
+        <div class="row header">
+            <a href="index.html">Home</a>
+            <a href="aboutme.html">About Me</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="row info">
+            <p>I attent Balboa high school and will be a junior next year.</p>
+        </div>
+        <div class="info">
+            <button id="fact">Fun Fact #1</button>
+            <p class="funfact">I'm part of a lion dance group, "Lion Dance Me"</p>
+            <img class="funfact" src="liondance.jpg">
+        </div>
+    </body>
+</html>
