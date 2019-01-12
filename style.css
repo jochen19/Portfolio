@@ -25,6 +25,7 @@ a{
 #headshot{
     width:20%;
     margin-right:150px;
+    flip: 
 }
 #name{
     margin-left:150px;
@@ -64,3 +65,4 @@ button{
     margin:auto;
     padding-top:200px;
 }
+
