@@ -25,7 +25,6 @@ a{
 #headshot{
     width:20%;
     margin-right:150px;
-    flip: 
 }
 #name{
     margin-left:150px;
@@ -66,3 +65,15 @@ button{
     padding-top:200px;
 }
 
+.portBlk{
+    display:flex;
+    width: 25%;
+    height: auto;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.portContainer{
+    display:flex;
+    margin-top: 25px;
+}
