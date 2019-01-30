@@ -67,8 +67,8 @@ button{
 
 .portBlk{
     display:flex;
-    width: 25%;
-    height: auto;
+    width: auto;
+    height: 25%;
     flex-wrap:wrap;
     justify-content:center;
 }
