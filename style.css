@@ -71,9 +71,21 @@ button{
     height: 25%;
     flex-wrap:wrap;
     justify-content:center;
+    border: 1px black;
 }
 
 .portContainer{
     display:flex;
     margin-top: 25px;
+    margin-bottom: 200px;
+}
+
+#pic1{
+    height: 100%;
+    width: auto;
+}
+
+#pic2{
+    height: 100%;
+    width: auto;
 }
