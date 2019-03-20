@@ -1,6 +1,3 @@
-img{
-    border:5px solid black;
-}
 a{
     color:inherit;
     text-decoration:none;
@@ -65,27 +62,22 @@ button{
     padding-top:200px;
 }
 
-.portBlk{
-    display:flex;
-    width: auto;
-    height: 25%;
-    flex-wrap:wrap;
-    justify-content:center;
-    border: 1px black;
+img{
+    width:32%;
+    height: auto;
 }
 
 .portContainer{
     display:flex;
-    margin-top: 25px;
-    margin-bottom: 200px;
+    flex-wrap: wrap;
+    border:10px solid black;
+    justify-content:center;
+    justify-content:space-evenly;
 }
 
-#pic1{
-    height: 100%;
-    width: auto;
-}
-
-#pic2{
-    height: 100%;
-    width: auto;
+.portBlk{
+    border:10px solid black;
+    width: 32%;
+    text-align: center;
+    align-items: baseline;
 }
